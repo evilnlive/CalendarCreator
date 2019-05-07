@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarCreator", "CalendarCreator\CalendarCreator.csproj", "{994B5245-1D1C-4DD0-BCF6-FDFC592215D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7365F76D-0B50-4DAD-8D03-D10289050F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarCreator.Test", "CalendarCreator.Test\CalendarCreator.Test.csproj", "{343C21DE-D591-44F4-8DB3-74684AB03B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarCreator.Console", "CalendarCreator.Console\CalendarCreator.Console.csproj", "{5802F19B-630D-4EF7-A23C-87CB8D1807EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{994B5245-1D1C-4DD0-BCF6-FDFC592215D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994B5245-1D1C-4DD0-BCF6-FDFC592215D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994B5245-1D1C-4DD0-BCF6-FDFC592215D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994B5245-1D1C-4DD0-BCF6-FDFC592215D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343C21DE-D591-44F4-8DB3-74684AB03B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343C21DE-D591-44F4-8DB3-74684AB03B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343C21DE-D591-44F4-8DB3-74684AB03B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343C21DE-D591-44F4-8DB3-74684AB03B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5802F19B-630D-4EF7-A23C-87CB8D1807EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5802F19B-630D-4EF7-A23C-87CB8D1807EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5802F19B-630D-4EF7-A23C-87CB8D1807EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5802F19B-630D-4EF7-A23C-87CB8D1807EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{343C21DE-D591-44F4-8DB3-74684AB03B74} = {7365F76D-0B50-4DAD-8D03-D10289050F24}
+	EndGlobalSection
+EndGlobal
